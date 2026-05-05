@@ -1,54 +1,57 @@
 .header {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 body {
-font-size: 14px;
-      font-weight: normal;
-      font-family: "Roboto", "Noto Sans JP", sans-serif;
-    }
-    .logo {
-      margin-top: 120px;
-      font-size: 64px;
-      font-weight: 600;
-      text-align: center;
-      letter-spacing: -8px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
 }
 
-    .search-box {
-      margin-top: 20px;
-      text-align: center;
-    }
-    
-    input {
-      width: 500px;
-      padding: 10px;
-      border-radius: 20px;
-      border: 1px solid #ccc;
-    }
+.logo {
+  margin-top: 120px;
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -8px;
+}
 
-    input:hover {
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    }
+.search-box {
+  margin-top: 20px;
+  text-align: center;
+}
 
-    button {
-      margin-top: 20px;
-      padding: 8px 16px;
-      border: none;
-      background-color: #f8f9fa;
-      cursor: pointer;
-      border-radius: 5px;
-    }
+input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
 
-    button:hover {
-      border: 1px solid #ccc;
-    }
+input:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
-    .link {
-      margin-top: 20px;
-      padding: 0 20px;
-      font-weight: 400;
-    }
-    .link:hover {
-      text-decoration: underline;
-    }
+button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid #ccc;
+}
+
+.link {
+  margin-top: 20px;
+  padding: 0 20px;
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
